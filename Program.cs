@@ -61,5 +61,5 @@ static int SumOfDiagonals(int[,] myArr, int size)
     return sum;
 }
 
-Console.WriteLine(SumOfDiagonals(myArr, size));
+Console.WriteLine($"The sum of the Right Diagonal is {SumOfDiagonals(myArr, size)}");
 
